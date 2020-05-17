@@ -1,6 +1,10 @@
 define([], function(){
     'use strict';
 
+    function foo(){
+        window.console.log('foo', arguments);
+    }
+
     return {
         start(){
             //foo starts
